@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+body{
+    background-color: #04BF8A;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, #04BF8A, #025940, #03A64A );
+    color: white;
+    padding: 10px;
+    margin: 0px;    
+}
+
+header>h1{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-block-start: -0.20em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 1px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+header>p{
+    color: darkgray;
+    text-align: center;
+    margin-block-start: -1em;
+    margin-block-end: 2em;
+}
+
+header>nav>a{
+    color: white;
+    text-decoration: none;
+    margin-inline-start: 0.7em;
+    margin-inline-end: 0.3em;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 50em;
+    height: auto;
+    padding: 10px;
+    margin:auto;
+    display: block;
+}
+main>h1{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Idroid';
+}
+main>h2{
+    font-family: 'Idroid';
+    text-align: left;
+    font-size: 30px;
+}
+main>p{
+    margin: 0;
+    text-indent: 3ch;
+    text-align: justify;
+    font-size: 15px;
+}
+
+main>p>a{
+    color: #04BF8A;
+    text-decoration: none;
+}
+.bugdroid{
+    text-align: center;
+}
+
+.videoyoutube1{
+    text-align: center;
+    background-color: green;
+    margin-top: 10px;
+}
+footer{
+    background-color: white;
+    width: 50em;
+    height: auto;
+    padding: 10px;
+    margin:auto;
+    display: block;
+}
+color{
+    background-color: #75f8aeee;
+}

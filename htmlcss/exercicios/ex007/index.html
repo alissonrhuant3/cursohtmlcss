@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formataçao de texto</title>
+    <style>
+         mark {
+                 background-color: aqua;
+
+         }
+
+    </style>
+</head>
+<body>
+    <H2>semantica Html</H2>
+    <bdo dir="rtl">Este texto todo esta invertido RIGHT-TO-LEFT.</bdo> <!--Inverter o texto Utilize <bdo> Rtl da diretia para a esquerda e ltr Da esquerda para direita-->
+     
+     <p>Eu estou estudando <abbr title="Hyper Test Markup language">HTML</abbr> para Criar sites. </p> <!--'Abreviaçoes 'Utilize Abbr para indicar o siginificado da sigla-->
+
+     <p>  Lorem ipsum dolor sit amet <strong> consectetur </strong><!-- A tag strong deixara As palavras dentro das chave em negrito-->adipisicing elit. Quasi consectetur quo sapiente beatae minima totam provident ullam perspiciatis tenetur. Facere, molestiae? Ducimus hic, minus ratione molestias animi quo quam nemo?</p>
+
+     <p>Lorem ipsum dolor sit amet, <em> consectetur adipisicing elit</em> <!--A tag em Deixara as palavras dentro das chaves em metalico-->. Odio, aliquam ipsa. Alias ad, illum dignissimos voluptatibus repudiandae aliquid, voluptate exercitationem provident debitis ipsum obcaecati sapiente id, quod laborum sint dolore!</p>
+
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo voluptate qui rerum, beatae quaerat laudantium placeat omnis dignissimos exercitationem officiis amet dolor recusandae, asperiores nam maiores, repudiandae impedit commodi. <mark> consectetur, adipisicing elit </mark> <!--Utilize A Tag mark Para fazer uma marcaçao em seu texto, e Utilize o parametro style para modificar a cor do marcador-->. Voluptas minima rem atque, maiores ducimus enim porro asperiores! Aspernatur quisquam maiores repellat dolores quas reiciendis, vel eveniet, provident unde optio aperiam!</p>
+
+     <p>Lorem ipsum, dolor sit amet <small> consectetur adipisicing elit </small> <!--Utilize A Tag small para deixar as letras pequenas-->. Obcaecati rem, accusantium earum necessitatibus harum dolores quidem aliquid eius, aliquam omnis facilis corrupti, sed quam doloremque animi. Ex maxime perspiciatis repellendus.</p> 
+
+     <p>Lorem ipsum dolor sit amet <del> consectetur adipisicing elit</del> <!--Utilize a Tag del para riscar uma frase ou uma palavra -->. Molestias veniam rerum facilis repellendus molestiae autem suscipit dolor. Illum, laboriosam pariatur! Mollitia veniam magni ut vero, maxime molestiae voluptate facere porro?</p>
+
+     <p>Lorem ipsum dolor sit amet <ins> consectetur adipisicing elit</ins> <!--para Sublinhar uma frase ou uma palavra utilize a tag ins-->. Quas odit nulla quibusdam nostrum omnis nobis voluptates labore fugiat praesentium expedita, sit voluptate in tenetur illo perspiciatis quia, fugit reiciendis esse.</p>
+
+     <p>X<sup>2</sup></p> <!--Utilize a tag sup para Colocar A letra ou o numero na parte superior-->
+     <p>X<sub>2</sub></p> <!--Utilize a tag sub para colocar a letra ou o numero na parte inferior-->
+
+     <h3>Trechos de codigo exemplo em phyton</h3> <!--Utilize a Tag pre Para manter a formataçao Orignal, incluindo quebras de linhas, espaços e tabulaçoes-->
+      <code><pre>
+          num= int(input('Digite um numero'))
+          if num %2== 0:
+             print (f'0 numero {num} é par')
+          else:
+             print (f'0 numero {num} é impar)
+          print('Fim Do Programa')   
+      </pre></code>
+
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <q> Illum praeentium ut voluptate tenetur accusantium quaerat pariatur ipssum nisi dicta numquam ratione, repudiandae</q> <!--Utilize a tag q para fazer citaçoes entre aspas-->, maiores sapiente, dolorem labore atque fuga assumenda iusto.
+      </p>
+
+
+</body>
+</html>
